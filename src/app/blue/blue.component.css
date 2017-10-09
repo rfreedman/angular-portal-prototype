@@ -1,0 +1,14 @@
+/deep/ .box-body.blue {
+  background-color: blue;
+}
+
+.content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color:white;
+  padding: 20px;
+  text-align:center;
+  overflow:hidden;
+  margin-top:50px;
+}

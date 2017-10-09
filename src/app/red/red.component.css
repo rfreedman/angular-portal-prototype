@@ -1,0 +1,13 @@
+/deep/ .box-body.red {
+  background-color: red;
+}
+
+.content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color:white;
+  padding: 20px;
+  text-align:center;
+}
+

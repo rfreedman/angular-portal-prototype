@@ -1,0 +1,52 @@
+
+body {
+  background-color: #f5f2f2;
+}
+
+.navbar-default {
+  background: black;
+  border: 0px;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.grid-item {
+  border: solid 1px #ccc;
+  display:flex;
+  flex-direction:row;
+}
+
+.widget-wrapper {
+  overflow: hidden;
+}
+
+.handle {
+  width: 100%;
+  height: 50px;
+  background: #eee;
+  color: black;
+  font-weight: 500;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.btn {
+  margin-left: 10px;
+}
+
+.box-header-btns {
+  top: 15px;
+  right: 10px;
+  cursor: pointer;
+  position: absolute;
+}
+
+
+box-body {
+  display:flex;
+  flex-direction:column;
+  width: 100%;
+}
+

@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+  width:100%;
+  height:100%;
+}
+
+.grid-item {
+  display:flex;
+  flex-direction:row;
+  position:absolute;
+  top:40px;
+  left:120px;
+  width:600px;
+  height:400px;
+
+}
+.widget-wrapper {
+  display:flex;
+  flex-direction:column;
+
+  width:100%;
+}
+
+.box-handle {
+  height:50px;
+}
+
+.box-body {
+  height:100%;
+}
+
+.content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color:white;
+  padding: 20px;
+  text-align:center;
+}

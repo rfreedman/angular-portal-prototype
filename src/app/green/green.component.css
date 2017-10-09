@@ -1,0 +1,13 @@
+/deep/ .box-body.green {
+  background-color: green;
+}
+
+.content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color:white;
+  padding: 20px;
+  text-align:center;
+}
+
