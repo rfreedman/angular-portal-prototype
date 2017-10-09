@@ -1,18 +1,16 @@
 <nav class="navbar navbar-default">
   <div class="container-fluid">
-    <div class="navbar-header">
+    <div class="navbar-header" style="height:30px;padding:15px;">
       <a class="navbar-brand" href="#">Brand</a>
-    </div>
-    <div class="nav navbar-nav navbar-right">
-      <a (click)="addBox()" class="btn btn-primary pull-right navbar-btn" style='margin-right: 10px;'>Add Box</a>
+      <div class="nav navbar-nav navbar-right" style="float:right;">
+        <button (click)="addBox('red')">Add Red Box</button>
+        <button (click)="addBox('green')">Add Green Box</button>
+        <button (click)="addBox('blue')">Add Blue Box</button>
+      </div>
     </div>
   </div>
 </nav>
-<div>
-  <button (click)="addBox('red')">Add Red Box</button>
-  <button (click)="addBox('green')">Add Green Box</button>
-  <button (click)="addBox('blue')">Add Blue Box</button>
-</div>
+
 <div [ngGrid]="gridConfig">
 
   <div *ngFor="let box of boxes; let i = index" [(ngGridItem)]="box.config" (onItemChange)="updateItem(i, $event)"  (onResize)="onResize(i, $event)" (onDrag)="onDrag(i, $event)">
